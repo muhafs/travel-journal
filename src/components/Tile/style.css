@@ -1,0 +1,61 @@
+.tile {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 20px;
+}
+.tile--cover {
+	display: block;
+	width: 125px;
+	height: 168px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.tile--text {
+	color: #2b283a;
+}
+
+.tile--location {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 4px;
+}
+
+.tile--location_pin {
+	width: 7px;
+}
+
+.tile--location_name {
+	letter-spacing: 1.7px;
+	font-weight: 400;
+	font-size: 0.64rem;
+}
+
+.tile--map {
+	padding-left: 8px;
+	font-weight: 400;
+	font-size: 0.64rem;
+	color: #918e9b;
+}
+
+.tile--title {
+	font-size: 1.5625rem;
+	font-weight: 700;
+}
+
+.tile--time {
+	font-size: 0.64rem;
+	font-weight: 700;
+}
+
+.tile--desc {
+	padding-top: 10px;
+	font-size: 0.64rem;
+	font-weight: 400;
+	max-width: 326px;
+	max-height: 60px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

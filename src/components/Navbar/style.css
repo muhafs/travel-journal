@@ -1,0 +1,21 @@
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #f55a5a;
+	height: 55px;
+	padding: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+}
+.nav--logo {
+	width: 24px;
+}
+.nav--text {
+	font-size: 15px;
+	font-weight: 500;
+	color: #fff;
+}
